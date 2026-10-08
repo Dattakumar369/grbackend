@@ -1,0 +1,14 @@
+package com.example.status;
+
+public enum OrderStatus {
+    PENDING,
+    PAYMENT_PENDING,
+    PAYMENT_COMPLETED,
+    PROCESSING,
+    ACCEPTED_BY_DELIVERY,
+    REJECTED_BY_DELIVERY,
+    SHIPPED,
+    OUT_FOR_DELIVERY,
+    DELIVERED,
+    CANCELLED, PAYMENT_FAILED
+}
